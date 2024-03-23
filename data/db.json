@@ -1,0 +1,46 @@
+{
+  "series": [
+    {
+      "nomeSerie": "breaking bad",
+      "numTemporada": 8,
+      "nomeEstudio": "teste",
+      "anoLancamento": 2012,
+      "id": "c092"
+    },
+    {
+      "id": "c092",
+      "nomeSerie": "House of the dragon",
+      "numTemporada": 2,
+      "nomeEstudio": "HBO",
+      "anoLancamento": 2022
+    },
+    {
+      "id": "c092",
+      "nomeSerie": "Os aneis do poder",
+      "numTemporada": 1,
+      "nomeEstudio": "Amazon",
+      "anoLancamento": 2021
+    },
+    {
+      "id": "c092",
+      "nomeSerie": "The boys",
+      "numTemporada": 4,
+      "nomeEstudio": "Amazon",
+      "anoLancamento": 2021
+    },
+    {
+      "id": null,
+      "nomeSerie": {},
+      "numTemporada": {},
+      "nomeEstudio": {},
+      "anoLancamento": {}
+    },
+    {
+      "id": null,
+      "nomeSerie": "sgfssd",
+      "numTemporada": "2",
+      "nomeEstudio": "gfdgfd",
+      "anoLancamento": "321"
+    }
+  ]
+}

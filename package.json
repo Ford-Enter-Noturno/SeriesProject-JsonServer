@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  },
+  "scripts": {
+    "start": "npx json-server --watch data/db.json --port 8081"
+  }
+}

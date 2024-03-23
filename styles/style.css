@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Import da font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #B51D44;
+    --primary-font: "Montserrat", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+.container-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-flex__logo-senai>img {
+    height: 50%;
+    width: 140px;
+}
+
+.nav-flex {
+    height: 80px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.350);
+}
+
+.nav-flex__elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-flex__links {
+    width: 30%;
+}
+
+.nav-flex__links-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style-type: none;
+}
+
+.nav-flex__links-list>li>a {
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+/* realizar estilização do main */
+
+#main>h2 {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.section-flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.main-flex {
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.350);
+    border-radius: 8px;
+    padding: 20px;
+    max-height: 80vh;
+}
+
+.main-flex__form>h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main-flex__form-element {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-flex__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    height: 30px;
+}
+
+input[type="number"] {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    height: 30px;
+}
+
+.main-flex__button {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-flex__button>button {
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 8px;
+    background-color: darkgray;
+    width: 40%;
+    cursor: not-allowed;
+}
+
+.main-flex__button>button:enabled,
+.main-flex__button>button:enabled:active {
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+/* estilização table: */
+
+.main-flex__listagem-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-flex__listagem-flex__table th,
+.main-flex__listagem-flex__table td{
+    text-align: center;
+    width: 100%;
+}
+
+.bi{
+    cursor: pointer;
+}
+
+tbody>tr:nth-child(even){
+    background-color: var(--primary-color);
+    color: white;
+}
+
+table,
+th,
+td{
+    margin-top: 2px;
+    padding: 4px;
+    border-collapse: collapse;
+}
+
+/* Footer */
+
+footer{
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.350);
+}
+
+.footer-style__grid{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10%;
+    padding: 30px;
+}
+
+.footer-style__grid>article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 30px;
+    font-size: 1.1rem;
+}
+
+.footer-style__grid>article>h1{
+    font-weight: 700;
+    text-transform: uppercase;
+}
